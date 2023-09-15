@@ -1,4 +1,6 @@
 # neural_desafio
+La interacción con la API (http://64.176.6.184:5000) requiere de un input tipo Dataframe, con los mismos atributos del DF de entrenamiento. Se puede ver algunos ejemplos en el archivo "llamando_api.py".
+
 
 ## Punto 1: ¿Qué modelo elegir?
 Me decidí por utilizar la regresión logística por dos razones fundamentales. En primer lugar, la variable que deseamos predecir es de naturaleza binaria, es decir, se trata de predecir si ocurre un "atraso" o "no atraso". La regresión logística es especialmente adecuada para abordar este tipo de situaciones.
